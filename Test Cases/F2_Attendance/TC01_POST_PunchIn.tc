@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_POST_PunchIn</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf7dc266-2ebe-4a0c-8b00-01b7a31672ca</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Employee" time="24.678" tests="10" failures="0" skips="0" errors="0">
+   <testsuite name="Employee" tests="10" failures="0" errors="0" time="24.678" skips="0" timestamp="2021-01-10 22:58:06" hostname="win10 - DESKTOP-FIL7UJ4" id="Test Suites/Employee">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\SekolahQA\\ProjectTugas\\SP3\\Reports\\20210110_225759\\Employee\\20210110_225759"/>
+         <property name="logFiles" value="D:\\SekolahQA\\ProjectTugas\\SP3\\Reports\\20210110_225759\\Employee\\20210110_225759\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="win10 - DESKTOP-FIL7UJ4"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.2.208"/>
+      </properties>
+      <testcase name="Test Cases/Employee/TC01_Save_Employee" time="2.93" classname="Test Cases/Employee/TC01_Save_Employee" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:58:08 - [TEST_CASE][PASSED] - Test Cases/Employee/TC01_Save_Employee: Test Cases/Employee/TC01_Save_Employee
+
+2021-01-10 22:58:08 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M01_POST_Save_Employee")): Send request successfully
+
+2021-01-10 22:58:10 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\0.har
+
+2021-01-10 22:58:10 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:58:10 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M01_POST_Save_Employee")): Send request and verify the response successfully
+
+2021-01-10 22:58:10 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\1.har
+
+2021-01-10 22:58:10 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:58:10 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:58:10 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:58:10 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:58:10 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:58:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:58:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:58:10 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "success", "Successfully Saved"): Verify element property value successfully
+
+2021-01-10 22:58:11 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee/TC02_Employee_Detail" time="1.596" classname="Test Cases/Employee/TC02_Employee_Detail" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:58:11 - [TEST_CASE][PASSED] - Test Cases/Employee/TC02_Employee_Detail: Test Cases/Employee/TC02_Employee_Detail
+
+2021-01-10 22:58:11 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M02_GET_Employee_Detail")): Send request successfully
+
+2021-01-10 22:58:12 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\2.har
+
+2021-01-10 22:58:12 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:58:12 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M02_GET_Employee_Detail")): Send request and verify the response successfully
+
+2021-01-10 22:58:12 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\3.har
+
+2021-01-10 22:58:12 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:58:12 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:58:12 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:58:12 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:58:12 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:58:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:58:12 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:58:12 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.employeeId", "7"): Verify element property value successfully
+
+2021-01-10 22:58:12 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee/TC03_Update_Employee_Detail" time="0.985" classname="Test Cases/Employee/TC03_Update_Employee_Detail" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:58:12 - [TEST_CASE][PASSED] - Test Cases/Employee/TC03_Update_Employee_Detail: Test Cases/Employee/TC03_Update_Employee_Detail
+
+2021-01-10 22:58:12 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M03_UPDATE_Employee_Detail")): Send request successfully
+
+2021-01-10 22:58:13 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\4.har
+
+2021-01-10 22:58:13 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:58:13 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M03_UPDATE_Employee_Detail")): Send request and verify the response successfully
+
+2021-01-10 22:58:13 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\5.har
+
+2021-01-10 22:58:13 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:58:13 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:58:13 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:58:13 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:58:13 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:58:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:58:13 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:58:13 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "success", "Successfully Updated"): Verify element property value successfully
+
+2021-01-10 22:58:13 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee/TC04_Employee_Search" time="1.103" classname="Test Cases/Employee/TC04_Employee_Search" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:58:13 - [TEST_CASE][PASSED] - Test Cases/Employee/TC04_Employee_Search: Test Cases/Employee/TC04_Employee_Search
+
+2021-01-10 22:58:13 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M04_GET_Employee_Search")): Send request successfully
+
+2021-01-10 22:58:14 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\6.har
+
+2021-01-10 22:58:14 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:58:14 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M04_GET_Employee_Search")): Send request and verify the response successfully
+
+2021-01-10 22:58:14 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\7.har
+
+2021-01-10 22:58:14 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:58:14 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:58:14 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:58:14 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:58:14 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:58:14 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:58:14 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:58:14 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data[0].fullName", "Nina Jane Lewis"): Verify element property value successfully
+
+2021-01-10 22:58:14 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee/TC05_Employee_Contact_Detail" time="1.345" classname="Test Cases/Employee/TC05_Employee_Contact_Detail" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:58:14 - [TEST_CASE][PASSED] - Test Cases/Employee/TC05_Employee_Contact_Detail: Test Cases/Employee/TC05_Employee_Contact_Detail
+
+2021-01-10 22:58:15 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M05_GET_Employee_Contact_Detail")): Send request successfully
+
+2021-01-10 22:58:15 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\8.har
+
+2021-01-10 22:58:15 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:58:15 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M05_GET_Employee_Contact_Detail")): Send request and verify the response successfully
+
+2021-01-10 22:58:15 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\9.har
+
+2021-01-10 22:58:15 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:58:16 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:58:16 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:58:16 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:58:16 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:58:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:58:16 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:58:16 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.fullName", "Nina Joseph Lewis"): Verify element property value successfully
+
+2021-01-10 22:58:16 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee/TC06_Save_Employee_Contact_Detail" time="1.055" classname="Test Cases/Employee/TC06_Save_Employee_Contact_Detail" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:58:16 - [TEST_CASE][PASSED] - Test Cases/Employee/TC06_Save_Employee_Contact_Detail: Test Cases/Employee/TC06_Save_Employee_Contact_Detail
+
+2021-01-10 22:58:16 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M06_POST_Save_Employee_Contact_Details")): Send request successfully
+
+2021-01-10 22:58:16 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\10.har
+
+2021-01-10 22:58:16 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:58:16 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M06_POST_Save_Employee_Contact_Details")): Send request and verify the response successfully
+
+2021-01-10 22:58:17 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\11.har
+
+2021-01-10 22:58:17 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:58:17 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:58:17 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:58:17 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:58:17 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:58:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:58:17 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:58:17 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "success", "Successfully Saved"): Verify element property value successfully
+
+2021-01-10 22:58:17 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee/TC07_Update_Employee_Contact_Detail" time="1.0" classname="Test Cases/Employee/TC07_Update_Employee_Contact_Detail" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:58:17 - [TEST_CASE][PASSED] - Test Cases/Employee/TC07_Update_Employee_Contact_Detail: Test Cases/Employee/TC07_Update_Employee_Contact_Detail
+
+2021-01-10 22:58:17 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M07_UPDATE_Employee_Contact_Detail")): Send request successfully
+
+2021-01-10 22:58:17 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\12.har
+
+2021-01-10 22:58:17 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:58:17 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M07_UPDATE_Employee_Contact_Detail")): Send request and verify the response successfully
+
+2021-01-10 22:58:18 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\13.har
+
+2021-01-10 22:58:18 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:58:18 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:58:18 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:58:18 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:58:18 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:58:18 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:58:18 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:58:18 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "success", "Successfully Updated"): Verify element property value successfully
+
+2021-01-10 22:58:18 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee/TC08_Employee_Dependent" time="1.098" classname="Test Cases/Employee/TC08_Employee_Dependent" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:58:18 - [TEST_CASE][PASSED] - Test Cases/Employee/TC08_Employee_Dependent: Test Cases/Employee/TC08_Employee_Dependent
+
+2021-01-10 22:58:18 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M08_GET_Employee_Dependents")): Send request successfully
+
+2021-01-10 22:58:18 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\14.har
+
+2021-01-10 22:58:18 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:58:18 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M08_GET_Employee_Dependents")): Send request and verify the response successfully
+
+2021-01-10 22:58:19 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\15.har
+
+2021-01-10 22:58:19 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:58:19 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:58:19 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:58:19 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:58:19 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:58:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:58:19 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:58:19 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data[0].name", "Febri"): Verify element property value successfully
+
+2021-01-10 22:58:19 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee/TC09_Save_Employee_Dependent" time="0.907" classname="Test Cases/Employee/TC09_Save_Employee_Dependent" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:58:19 - [TEST_CASE][PASSED] - Test Cases/Employee/TC09_Save_Employee_Dependent: Test Cases/Employee/TC09_Save_Employee_Dependent
+
+2021-01-10 22:58:19 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M09_POST_Save_Employee_Dependent")): Send request successfully
+
+2021-01-10 22:58:19 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\16.har
+
+2021-01-10 22:58:19 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:58:19 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M09_POST_Save_Employee_Dependent")): Send request and verify the response successfully
+
+2021-01-10 22:58:20 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\17.har
+
+2021-01-10 22:58:20 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:58:20 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:58:20 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:58:20 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:58:20 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:58:20 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:58:20 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:58:20 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "success", "Successfully Saved"): Verify element property value successfully
+
+2021-01-10 22:58:20 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee/TC10_Delete_Employee_Depedent" time="0.932" classname="Test Cases/Employee/TC10_Delete_Employee_Depedent" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:58:20 - [TEST_CASE][PASSED] - Test Cases/Employee/TC10_Delete_Employee_Depedent: Test Cases/Employee/TC10_Delete_Employee_Depedent
+
+2021-01-10 22:58:20 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M10_DEL_Employee_Dependent")): Send request successfully
+
+2021-01-10 22:58:20 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\18.har
+
+2021-01-10 22:58:20 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:58:20 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M10_DEL_Employee_Dependent")): Send request and verify the response successfully
+
+2021-01-10 22:58:20 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225759\Employee\20210110_225759\requests\main\19.har
+
+2021-01-10 22:58:21 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:58:21 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:58:21 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:58:21 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:58:21 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:58:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:58:21 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:58:21 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "success", "Successfully Deleted"): Verify element property value successfully
+
+2021-01-10 22:58:21 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-10 22:58:06 - [TEST_SUITE][PASSED] - Employee: Test Cases/Employee/TC10_Delete_Employee_Depedent]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

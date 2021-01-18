@@ -1,0 +1,60 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Employee,,,,2021-01-10 21:11:58,2021-01-10 21:12:13,14.424s,FAILED
+,,,,,,,
+Test Cases/Employee/TC01_Save_Employee,,,,2021-01-10 21:12:00,2021-01-10 21:12:03,3.084s,PASSED
+"Response = sendRequest(findTestObject(""Employee/M01_POST_Save_Employee""))",,,,2021-01-10 21:12:00,2021-01-10 21:12:02,1.767s,PASSED
+"sendRequestAndVerify(findTestObject(""Employee/M01_POST_Save_Employee""))",,,,2021-01-10 21:12:02,2021-01-10 21:12:03,0.764s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2021-01-10 21:12:03,2021-01-10 21:12:03,0.025s,PASSED
+"verifyElementPropertyValue(Response, ""success"", ""Successfully Saved"")",,,,2021-01-10 21:12:03,2021-01-10 21:12:03,0.086s,PASSED
+,,,,,,,
+Test Cases/Employee/TC02_Employee_Detail,,,,2021-01-10 21:12:03,2021-01-10 21:12:04,1.401s,PASSED
+"Response = sendRequest(findTestObject(""Employee/M02_GET_Employee_Detail""))",,,,2021-01-10 21:12:03,2021-01-10 21:12:04,0.580s,PASSED
+"sendRequestAndVerify(findTestObject(""Employee/M02_GET_Employee_Detail""))",,,,2021-01-10 21:12:04,2021-01-10 21:12:04,0.528s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2021-01-10 21:12:04,2021-01-10 21:12:04,0.003s,PASSED
+"verifyElementPropertyValue(Response, ""data.employeeId"", ""7"")",,,,2021-01-10 21:12:04,2021-01-10 21:12:04,0.018s,PASSED
+,,,,,,,
+Test Cases/Employee/TC03_Update_Employee_Detail,,,,2021-01-10 21:12:04,2021-01-10 21:12:05,1.026s,PASSED
+"Response = sendRequest(findTestObject(""Employee/M03_UPDATE_Employee_Detail""))",,,,2021-01-10 21:12:04,2021-01-10 21:12:05,0.348s,PASSED
+"sendRequestAndVerify(findTestObject(""Employee/M03_UPDATE_Employee_Detail""))",,,,2021-01-10 21:12:05,2021-01-10 21:12:05,0.490s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2021-01-10 21:12:05,2021-01-10 21:12:05,0.010s,PASSED
+"verifyElementPropertyValue(Response, ""success"", ""Successfully Updated"")",,,,2021-01-10 21:12:05,2021-01-10 21:12:05,0.031s,PASSED
+,,,,,,,
+Test Cases/Employee/TC04_Employee_Search,,,,2021-01-10 21:12:05,2021-01-10 21:12:06,1.118s,PASSED
+"Response = sendRequest(findTestObject(""Employee/M04_GET_Employee_Search""))",,,,2021-01-10 21:12:05,2021-01-10 21:12:06,0.436s,PASSED
+"sendRequestAndVerify(findTestObject(""Employee/M04_GET_Employee_Search""))",,,,2021-01-10 21:12:06,2021-01-10 21:12:06,0.485s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2021-01-10 21:12:06,2021-01-10 21:12:06,0.004s,PASSED
+"verifyElementPropertyValue(Response, ""data[0].fullName"", ""Nina Jane Lewis"")",,,,2021-01-10 21:12:06,2021-01-10 21:12:06,0.025s,PASSED
+,,,,,,,
+Test Cases/Employee/TC05_Employee_Contact_Detail,,,,2021-01-10 21:12:06,2021-01-10 21:12:07,1.060s,PASSED
+"Response = sendRequest(findTestObject(""Employee/M05_GET_Employee_Contact_Detail""))",,,,2021-01-10 21:12:07,2021-01-10 21:12:07,0.407s,PASSED
+"sendRequestAndVerify(findTestObject(""Employee/M05_GET_Employee_Contact_Detail""))",,,,2021-01-10 21:12:07,2021-01-10 21:12:07,0.492s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2021-01-10 21:12:07,2021-01-10 21:12:07,0.002s,PASSED
+"verifyElementPropertyValue(Response, ""data.fullName"", ""Nina Joseph Lewis"")",,,,2021-01-10 21:12:07,2021-01-10 21:12:07,0.014s,PASSED
+,,,,,,,
+Test Cases/Employee/TC06_Save_Employee_Contact_Detail,,,,2021-01-10 21:12:07,2021-01-10 21:12:09,1.144s,PASSED
+"Response = sendRequest(findTestObject(""Employee/M06_POST_Save_Employee_Contact_Details""))",,,,2021-01-10 21:12:08,2021-01-10 21:12:08,0.465s,PASSED
+"sendRequestAndVerify(findTestObject(""Employee/M06_POST_Save_Employee_Contact_Details""))",,,,2021-01-10 21:12:08,2021-01-10 21:12:09,0.533s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2021-01-10 21:12:09,2021-01-10 21:12:09,0.003s,PASSED
+"verifyElementPropertyValue(Response, ""success"", ""Successfully Saved"")",,,,2021-01-10 21:12:09,2021-01-10 21:12:09,0.013s,PASSED
+,,,,,,,
+Test Cases/Employee/TC07_Update_Employee_Contact_Detail,,,,2021-01-10 21:12:09,2021-01-10 21:12:10,1.032s,PASSED
+"Response = sendRequest(findTestObject(""Employee/M07_UPDATE_Employee_Contact_Detail""))",,,,2021-01-10 21:12:09,2021-01-10 21:12:09,0.362s,PASSED
+"sendRequestAndVerify(findTestObject(""Employee/M07_UPDATE_Employee_Contact_Detail""))",,,,2021-01-10 21:12:09,2021-01-10 21:12:10,0.521s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2021-01-10 21:12:10,2021-01-10 21:12:10,0.002s,PASSED
+"verifyElementPropertyValue(Response, ""success"", ""Successfully Updated"")",,,,2021-01-10 21:12:10,2021-01-10 21:12:10,0.012s,PASSED
+,,,,,,,
+Test Cases/Employee/TC08_Employee_Dependent,,,,2021-01-10 21:12:10,2021-01-10 21:12:11,0.990s,FAILED
+"Response = sendRequest(findTestObject(""Employee/M08_GET_Employee_Dependents""))",,,,2021-01-10 21:12:10,2021-01-10 21:12:10,0.335s,PASSED
+"sendRequestAndVerify(findTestObject(""Employee/M08_GET_Employee_Dependents""))",,,,2021-01-10 21:12:10,2021-01-10 21:12:11,0.506s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2021-01-10 21:12:11,2021-01-10 21:12:11,0.027s,FAILED
+,,,,,,,
+Test Cases/Employee/TC09_Save_Employee_Dependent,,,,2021-01-10 21:12:11,2021-01-10 21:12:12,0.999s,PASSED
+"Response = sendRequest(findTestObject(""Employee/M09_POST_Save_Employee_Dependent""))",,,,2021-01-10 21:12:11,2021-01-10 21:12:11,0.346s,PASSED
+"sendRequestAndVerify(findTestObject(""Employee/M09_POST_Save_Employee_Dependent""))",,,,2021-01-10 21:12:11,2021-01-10 21:12:12,0.497s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2021-01-10 21:12:12,2021-01-10 21:12:12,0.002s,PASSED
+"verifyElementPropertyValue(Response, ""success"", ""Successfully Saved"")",,,,2021-01-10 21:12:12,2021-01-10 21:12:12,0.012s,PASSED
+,,,,,,,
+Test Cases/Employee/TC10_Delete_Employee_Depedent,,,,2021-01-10 21:12:12,2021-01-10 21:12:13,0.947s,FAILED
+"Response = sendRequest(findTestObject(""Employee/M10_DEL_Employee_Dependent""))",,,,2021-01-10 21:12:12,2021-01-10 21:12:12,0.328s,PASSED
+"sendRequestAndVerify(findTestObject(""Employee/M10_DEL_Employee_Dependent""))",,,,2021-01-10 21:12:12,2021-01-10 21:12:13,0.463s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2021-01-10 21:12:13,2021-01-10 21:12:13,0.008s,FAILED

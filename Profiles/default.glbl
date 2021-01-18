@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://34.123.127.154/symfony/web'</initValue>
+      <name>OrangeURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://34.123.127.154/symfony/web/index.php/oauth/issueToken'</initValue>
+      <name>TokenURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Bearer 9a70b386e440baa8b30ecdc0b15a2827544fa742'</initValue>
+      <name>token</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

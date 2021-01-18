@@ -1,0 +1,10 @@
+{"testCaseName":"Test Cases/Employee/TC01_Save_Employee","testCaseId":"Test Cases/Employee/TC01_Save_Employee"}
+{"testCaseName":"Test Cases/Employee/TC02_Employee_Detail","testCaseId":"Test Cases/Employee/TC02_Employee_Detail"}
+{"testCaseName":"Test Cases/Employee/TC03_Update_Employee_Detail","testCaseId":"Test Cases/Employee/TC03_Update_Employee_Detail"}
+{"testCaseName":"Test Cases/Employee/TC04_Employee_Search","testCaseId":"Test Cases/Employee/TC04_Employee_Search"}
+{"testCaseName":"Test Cases/Employee/TC05_Employee_Contact_Detail","testCaseId":"Test Cases/Employee/TC05_Employee_Contact_Detail"}
+{"testCaseName":"Test Cases/Employee/TC06_Save_Employee_Contact_Detail","testCaseId":"Test Cases/Employee/TC06_Save_Employee_Contact_Detail"}
+{"testCaseName":"Test Cases/Employee/TC07_Update_Employee_Contact_Detail","testCaseId":"Test Cases/Employee/TC07_Update_Employee_Contact_Detail"}
+{"testCaseName":"Test Cases/Employee/TC08_Employee_Dependent","testCaseId":"Test Cases/Employee/TC08_Employee_Dependent"}
+{"testCaseName":"Test Cases/Employee/TC09_Save_Employee_Dependent","testCaseId":"Test Cases/Employee/TC09_Save_Employee_Dependent"}
+{"testCaseName":"Test Cases/Employee/TC10_Delete_Employee_Depedent","testCaseId":"Test Cases/Employee/TC10_Delete_Employee_Depedent"}

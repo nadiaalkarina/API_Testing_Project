@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Employee" time="22.568" tests="10" failures="2" skips="0" errors="0">
+   <testsuite name="Employee" tests="10" failures="2" errors="0" time="22.568" skips="0" timestamp="2021-01-10 22:51:52" hostname="win10 - DESKTOP-FIL7UJ4" id="Test Suites/Employee">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\SekolahQA\\ProjectTugas\\SP3\\Reports\\20210110_225144\\Employee\\20210110_225144"/>
+         <property name="logFiles" value="D:\\SekolahQA\\ProjectTugas\\SP3\\Reports\\20210110_225144\\Employee\\20210110_225144\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="win10 - DESKTOP-FIL7UJ4"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.2.208"/>
+      </properties>
+      <testcase name="Test Cases/Employee/TC01_Save_Employee" time="2.744" classname="Test Cases/Employee/TC01_Save_Employee" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:51:53 - [TEST_CASE][PASSED] - Test Cases/Employee/TC01_Save_Employee: Test Cases/Employee/TC01_Save_Employee
+
+2021-01-10 22:51:54 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M01_POST_Save_Employee")): Send request successfully
+
+2021-01-10 22:51:55 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\0.har
+
+2021-01-10 22:51:55 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:51:55 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M01_POST_Save_Employee")): Send request and verify the response successfully
+
+2021-01-10 22:51:55 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\1.har
+
+2021-01-10 22:51:56 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:51:56 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:51:56 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:51:56 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:51:56 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:51:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:51:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:51:56 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "success", "Successfully Saved"): Verify element property value successfully
+
+2021-01-10 22:51:56 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee/TC02_Employee_Detail" time="1.663" classname="Test Cases/Employee/TC02_Employee_Detail" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:51:56 - [TEST_CASE][PASSED] - Test Cases/Employee/TC02_Employee_Detail: Test Cases/Employee/TC02_Employee_Detail
+
+2021-01-10 22:51:57 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M02_GET_Employee_Detail")): Send request successfully
+
+2021-01-10 22:51:57 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\2.har
+
+2021-01-10 22:51:57 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:51:57 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M02_GET_Employee_Detail")): Send request and verify the response successfully
+
+2021-01-10 22:51:57 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\3.har
+
+2021-01-10 22:51:58 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:51:58 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:51:58 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:51:58 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:51:58 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:51:58 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:51:58 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:51:58 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.employeeId", "7"): Verify element property value successfully
+
+2021-01-10 22:51:58 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee/TC03_Update_Employee_Detail" time="1.007" classname="Test Cases/Employee/TC03_Update_Employee_Detail" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:51:58 - [TEST_CASE][PASSED] - Test Cases/Employee/TC03_Update_Employee_Detail: Test Cases/Employee/TC03_Update_Employee_Detail
+
+2021-01-10 22:51:58 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M03_UPDATE_Employee_Detail")): Send request successfully
+
+2021-01-10 22:51:58 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\4.har
+
+2021-01-10 22:51:58 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:51:58 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M03_UPDATE_Employee_Detail")): Send request and verify the response successfully
+
+2021-01-10 22:51:58 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\5.har
+
+2021-01-10 22:51:59 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:51:59 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:51:59 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:51:59 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:51:59 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:51:59 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:51:59 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:51:59 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "success", "Successfully Updated"): Verify element property value successfully
+
+2021-01-10 22:51:59 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee/TC04_Employee_Search" time="1.339" classname="Test Cases/Employee/TC04_Employee_Search" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:51:59 - [TEST_CASE][PASSED] - Test Cases/Employee/TC04_Employee_Search: Test Cases/Employee/TC04_Employee_Search
+
+2021-01-10 22:51:59 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M04_GET_Employee_Search")): Send request successfully
+
+2021-01-10 22:51:59 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\6.har
+
+2021-01-10 22:51:59 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:51:59 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M04_GET_Employee_Search")): Send request and verify the response successfully
+
+2021-01-10 22:52:00 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\7.har
+
+2021-01-10 22:52:00 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:52:00 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:52:00 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:52:00 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:52:00 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:52:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:52:00 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:52:00 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data[0].fullName", "Nina Jane Lewis"): Verify element property value successfully
+
+2021-01-10 22:52:00 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee/TC05_Employee_Contact_Detail" time="1.233" classname="Test Cases/Employee/TC05_Employee_Contact_Detail" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:52:00 - [TEST_CASE][PASSED] - Test Cases/Employee/TC05_Employee_Contact_Detail: Test Cases/Employee/TC05_Employee_Contact_Detail
+
+2021-01-10 22:52:00 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M05_GET_Employee_Contact_Detail")): Send request successfully
+
+2021-01-10 22:52:01 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\8.har
+
+2021-01-10 22:52:01 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:52:01 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M05_GET_Employee_Contact_Detail")): Send request and verify the response successfully
+
+2021-01-10 22:52:01 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\9.har
+
+2021-01-10 22:52:01 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:52:01 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:52:01 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:52:01 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:52:01 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:52:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:52:01 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:52:01 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.fullName", "Nina Joseph Lewis"): Verify element property value successfully
+
+2021-01-10 22:52:01 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee/TC06_Save_Employee_Contact_Detail" time="1.1" classname="Test Cases/Employee/TC06_Save_Employee_Contact_Detail" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:52:01 - [TEST_CASE][PASSED] - Test Cases/Employee/TC06_Save_Employee_Contact_Detail: Test Cases/Employee/TC06_Save_Employee_Contact_Detail
+
+2021-01-10 22:52:01 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M06_POST_Save_Employee_Contact_Details")): Send request successfully
+
+2021-01-10 22:52:02 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\10.har
+
+2021-01-10 22:52:02 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:52:02 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M06_POST_Save_Employee_Contact_Details")): Send request and verify the response successfully
+
+2021-01-10 22:52:02 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\11.har
+
+2021-01-10 22:52:02 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:52:02 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:52:02 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:52:02 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:52:02 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:52:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:52:02 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:52:02 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "success", "Successfully Saved"): Verify element property value successfully
+
+2021-01-10 22:52:02 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee/TC07_Update_Employee_Contact_Detail" time="1.018" classname="Test Cases/Employee/TC07_Update_Employee_Contact_Detail" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:52:02 - [TEST_CASE][PASSED] - Test Cases/Employee/TC07_Update_Employee_Contact_Detail: Test Cases/Employee/TC07_Update_Employee_Contact_Detail
+
+2021-01-10 22:52:03 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M07_UPDATE_Employee_Contact_Detail")): Send request successfully
+
+2021-01-10 22:52:03 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\12.har
+
+2021-01-10 22:52:03 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:52:03 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M07_UPDATE_Employee_Contact_Detail")): Send request and verify the response successfully
+
+2021-01-10 22:52:03 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\13.har
+
+2021-01-10 22:52:03 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:52:03 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:52:03 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:52:03 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:52:03 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:52:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:52:03 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:52:03 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "success", "Successfully Updated"): Verify element property value successfully
+
+2021-01-10 22:52:03 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee/TC08_Employee_Dependent" time="0.93" classname="Test Cases/Employee/TC08_Employee_Dependent" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Employee/TC08_Employee_Dependent FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Darmawan' is not equal with actual property value 'Febri'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$2.call(Unknown Source)
+	at TC08_Employee_Dependent.run(TC08_Employee_Dependent:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610293904697.run(TempTestSuite1610293904697.groovy:39)
+"/>
+         <system-out><![CDATA[2021-01-10 22:52:03 - [TEST_CASE][FAILED] - Test Cases/Employee/TC08_Employee_Dependent: Test Cases/Employee/TC08_Employee_Dependent FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Darmawan' is not equal with actual property value 'Febri'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$2.call(Unknown Source)
+	at TC08_Employee_Dependent.run(TC08_Employee_Dependent:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610293904697.run(TempTestSuite1610293904697.groovy:39)
+
+
+2021-01-10 22:52:03 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M08_GET_Employee_Dependents")): Send request successfully
+
+2021-01-10 22:52:04 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\14.har
+
+2021-01-10 22:52:04 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:52:04 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M08_GET_Employee_Dependents")): Send request and verify the response successfully
+
+2021-01-10 22:52:04 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\15.har
+
+2021-01-10 22:52:04 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:52:04 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:52:04 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:52:04 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:52:04 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:52:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:52:04 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:52:04 - [TEST_STEP][FAILED] - verifyElementPropertyValue(Response, "data[0].name", "Darmawan"): Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Darmawan' is not equal with actual property value 'Febri'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$2.call(Unknown Source)
+	at TC08_Employee_Dependent.run(TC08_Employee_Dependent:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610293904697.run(TempTestSuite1610293904697.groovy:39)
+)
+
+2021-01-10 22:52:04 - [MESSAGE][FAILED] - Expected element property value 'Darmawan' is not equal with actual property value 'Febri'
+
+2021-01-10 22:52:04 - [MESSAGE][FAILED] - Unable to verify element property value (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Darmawan' is not equal with actual property value 'Febri'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$2.call(Unknown Source)
+	at TC08_Employee_Dependent.run(TC08_Employee_Dependent:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610293904697.run(TempTestSuite1610293904697.groovy:39)
+)]]></system-out>
+         <system-err><![CDATA[2021-01-10 22:52:03 - [TEST_CASE][FAILED] - Test Cases/Employee/TC08_Employee_Dependent: Test Cases/Employee/TC08_Employee_Dependent FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Darmawan' is not equal with actual property value 'Febri'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$2.call(Unknown Source)
+	at TC08_Employee_Dependent.run(TC08_Employee_Dependent:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610293904697.run(TempTestSuite1610293904697.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee/TC09_Save_Employee_Dependent" time="0.886" classname="Test Cases/Employee/TC09_Save_Employee_Dependent" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:52:04 - [TEST_CASE][PASSED] - Test Cases/Employee/TC09_Save_Employee_Dependent: Test Cases/Employee/TC09_Save_Employee_Dependent
+
+2021-01-10 22:52:04 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M09_POST_Save_Employee_Dependent")): Send request successfully
+
+2021-01-10 22:52:05 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\16.har
+
+2021-01-10 22:52:05 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:52:05 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M09_POST_Save_Employee_Dependent")): Send request and verify the response successfully
+
+2021-01-10 22:52:05 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\17.har
+
+2021-01-10 22:52:05 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:52:05 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:52:05 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:52:05 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:52:05 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:52:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:52:05 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:52:05 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "success", "Successfully Saved"): Verify element property value successfully
+
+2021-01-10 22:52:05 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Employee/TC10_Delete_Employee_Depedent" time="1.011" classname="Test Cases/Employee/TC10_Delete_Employee_Depedent" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Employee/TC10_Delete_Employee_Depedent FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$1.call(Unknown Source)
+	at TC10_Delete_Employee_Depedent.run(TC10_Delete_Employee_Depedent:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610293904697.run(TempTestSuite1610293904697.groovy:39)
+"/>
+         <system-out><![CDATA[2021-01-10 22:52:05 - [TEST_CASE][FAILED] - Test Cases/Employee/TC10_Delete_Employee_Depedent: Test Cases/Employee/TC10_Delete_Employee_Depedent FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$1.call(Unknown Source)
+	at TC10_Delete_Employee_Depedent.run(TC10_Delete_Employee_Depedent:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610293904697.run(TempTestSuite1610293904697.groovy:39)
+
+
+2021-01-10 22:52:05 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Employee/M10_DEL_Employee_Dependent")): Send request successfully
+
+2021-01-10 22:52:06 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\18.har
+
+2021-01-10 22:52:06 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:52:06 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Employee/M10_DEL_Employee_Dependent")): Send request and verify the response successfully
+
+2021-01-10 22:52:06 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_225144\Employee\20210110_225144\requests\main\19.har
+
+2021-01-10 22:52:06 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:52:06 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:52:06 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:52:06 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:52:06 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:52:06 - [TEST_STEP][FAILED] - verifyResponseStatusCode(Response, 200): Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$1.call(Unknown Source)
+	at TC10_Delete_Employee_Depedent.run(TC10_Delete_Employee_Depedent:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610293904697.run(TempTestSuite1610293904697.groovy:39)
+)
+
+2021-01-10 22:52:06 - [MESSAGE][FAILED] - Expected status code is '200' but actual status code is '404'
+
+2021-01-10 22:52:06 - [MESSAGE][FAILED] - Unable to verify response status code (Root cause: com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$1.call(Unknown Source)
+	at TC10_Delete_Employee_Depedent.run(TC10_Delete_Employee_Depedent:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610293904697.run(TempTestSuite1610293904697.groovy:39)
+)]]></system-out>
+         <system-err><![CDATA[2021-01-10 22:52:05 - [TEST_CASE][FAILED] - Test Cases/Employee/TC10_Delete_Employee_Depedent: Test Cases/Employee/TC10_Delete_Employee_Depedent FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected status code is '200' but actual status code is '404'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyStatusCode(VerifyResponseStatusCodeKeyword.groovy:52)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.doCall(VerifyResponseStatusCodeKeyword.groovy:42)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword$_verifyResponseStatusCode_closure1.call(VerifyResponseStatusCodeKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.verifyResponseStatusCode(VerifyResponseStatusCodeKeyword.groovy:37)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyResponseStatusCodeKeyword.execute(VerifyResponseStatusCodeKeyword.groovy:32)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyResponseStatusCode(WSBuiltInKeywords.groovy:344)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyResponseStatusCode$1.call(Unknown Source)
+	at TC10_Delete_Employee_Depedent.run(TC10_Delete_Employee_Depedent:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610293904697.run(TempTestSuite1610293904697.groovy:39)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-10 22:51:52 - [TEST_SUITE][FAILED] - Employee: Test Cases/Employee/TC08_Employee_Dependent FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Darmawan' is not equal with actual property value 'Febri'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$2.call(Unknown Source)
+	at TC08_Employee_Dependent.run(TC08_Employee_Dependent:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610293904697.run(TempTestSuite1610293904697.groovy:39)]]></system-out>
+      <system-err><![CDATA[2021-01-10 22:51:52 - [TEST_SUITE][FAILED] - Employee: Test Cases/Employee/TC08_Employee_Dependent FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Expected element property value 'Darmawan' is not equal with actual property value 'Febri'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.doCall(VerifyElementPropertyValueKeyword.groovy:56)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword$_verifyElementPropertyValue_closure1.call(VerifyElementPropertyValueKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.verifyElementPropertyValue(VerifyElementPropertyValueKeyword.groovy:48)
+	at com.kms.katalon.core.webservice.keyword.builtin.VerifyElementPropertyValueKeyword.execute(VerifyElementPropertyValueKeyword.groovy:43)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords.verifyElementPropertyValue(WSBuiltInKeywords.groovy:189)
+	at com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords$verifyElementPropertyValue$2.call(Unknown Source)
+	at TC08_Employee_Dependent.run(TC08_Employee_Dependent:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1610293904697.run(TempTestSuite1610293904697.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

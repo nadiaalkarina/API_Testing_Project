@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Attendance,,,,2021-01-10 20:45:18,2021-01-10 20:45:23,5.485s,PASSED
+,,,,,,,
+Test Cases/Attendance/POST_PunchIn,,,,2021-01-10 20:45:19,2021-01-10 20:45:22,2.791s,PASSED
+"Response = sendRequest(findTestObject(""Attendance/PunchIn""))",,,,2021-01-10 20:45:20,2021-01-10 20:45:21,1.524s,PASSED
+"sendRequestAndVerify(findTestObject(""Attendance/PunchIn""))",,,,2021-01-10 20:45:21,2021-01-10 20:45:22,0.796s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2021-01-10 20:45:22,2021-01-10 20:45:22,0.033s,PASSED
+"verifyElementPropertyValue(Response, ""success"", ""Successfully Punched In"")",,,,2021-01-10 20:45:22,2021-01-10 20:45:22,0.082s,PASSED
+,,,,,,,
+Test Cases/Attendance/POST_PunchOut,,,,2021-01-10 20:45:22,2021-01-10 20:45:23,1.241s,PASSED
+"Response = sendRequest(findTestObject(""Attendance/PunchOut""))",,,,2021-01-10 20:45:22,2021-01-10 20:45:23,0.418s,PASSED
+"sendRequestAndVerify(findTestObject(""Attendance/PunchOut""))",,,,2021-01-10 20:45:23,2021-01-10 20:45:23,0.532s,PASSED
+"verifyResponseStatusCode(Response, 200)",,,,2021-01-10 20:45:23,2021-01-10 20:45:23,0.003s,PASSED
+"verifyElementPropertyValue(Response, ""success"", ""Successfully Punched Out"")",,,,2021-01-10 20:45:23,2021-01-10 20:45:23,0.016s,PASSED

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Admin" time="13.478" tests="3" failures="0" skips="0" errors="0">
+   <testsuite name="Admin" tests="3" failures="0" errors="0" time="13.478" skips="0" timestamp="2021-01-10 22:43:29" hostname="win10 - DESKTOP-FIL7UJ4" id="Test Suites/Admin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\SekolahQA\\ProjectTugas\\SP3\\Reports\\20210110_224315\\Admin\\20210110_224316"/>
+         <property name="logFiles" value="D:\\SekolahQA\\ProjectTugas\\SP3\\Reports\\20210110_224315\\Admin\\20210110_224316\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="win10 - DESKTOP-FIL7UJ4"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.2.208"/>
+      </properties>
+      <testcase name="Test Cases/Admin/Get_AdminUser" time="3.01" classname="Test Cases/Admin/Get_AdminUser" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:43:31 - [TEST_CASE][PASSED] - Test Cases/Admin/Get_AdminUser: Test Cases/Admin/Get_AdminUser
+
+2021-01-10 22:43:31 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Admin/GET_Admin")): Send request successfully
+
+2021-01-10 22:43:33 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_224315\Admin\20210110_224316\requests\main\0.har
+
+2021-01-10 22:43:33 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:43:33 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Admin/GET_Admin")): Send request and verify the response successfully
+
+2021-01-10 22:43:33 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_224315\Admin\20210110_224316\requests\main\1.har
+
+2021-01-10 22:43:33 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:43:33 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:43:33 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:43:34 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:43:34 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:43:34 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:43:34 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:43:34 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data[0].userName", "Admin"): Verify element property value successfully
+
+2021-01-10 22:43:34 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Get_OrganizationInfo" time="1.237" classname="Test Cases/Admin/Get_OrganizationInfo" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:43:34 - [TEST_CASE][PASSED] - Test Cases/Admin/Get_OrganizationInfo: Test Cases/Admin/Get_OrganizationInfo
+
+2021-01-10 22:43:34 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Admin/GET_Admin2")): Send request successfully
+
+2021-01-10 22:43:34 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_224315\Admin\20210110_224316\requests\main\2.har
+
+2021-01-10 22:43:34 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:43:34 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Admin/GET_Admin2")): Send request and verify the response successfully
+
+2021-01-10 22:43:35 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_224315\Admin\20210110_224316\requests\main\3.har
+
+2021-01-10 22:43:35 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:43:35 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:43:35 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:43:35 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:43:35 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:43:35 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:43:35 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:43:35 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "data.id", "1"): Verify element property value successfully
+
+2021-01-10 22:43:35 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Login_Admin" time="1.614" classname="Test Cases/Admin/Login_Admin" status="PASSED">
+         <system-out><![CDATA[2021-01-10 22:43:35 - [TEST_CASE][PASSED] - Test Cases/Admin/Login_Admin: Test Cases/Admin/Login_Admin
+
+2021-01-10 22:43:35 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Admin/POST_Admin", ["variable":"", "variable_0":""])): Send request successfully
+
+2021-01-10 22:43:36 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_224315\Admin\20210110_224316\requests\main\4.har
+
+2021-01-10 22:43:36 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 22:43:36 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Admin/POST_Admin", ["variable":"", "variable_0":""])): Send request and verify the response successfully
+
+2021-01-10 22:43:36 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_224315\Admin\20210110_224316\requests\main\5.har
+
+2021-01-10 22:43:37 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 22:43:37 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 22:43:37 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 22:43:37 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 22:43:37 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 22:43:37 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 22:43:37 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 22:43:37 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "user.userName", "Admin"): Verify element property value successfully
+
+2021-01-10 22:43:37 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-10 22:43:29 - [TEST_SUITE][PASSED] - Admin: Test Cases/Admin/Login_Admin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

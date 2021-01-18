@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Attendance,,,,2021-01-10 20:37:48,2021-01-10 20:37:54,6.114s,FAILED
+,,,,,,,
+Test Cases/Attendance/POST_PunchIn,,,,2021-01-10 20:37:49,2021-01-10 20:37:53,3.246s,PASSED
+"Response = sendRequest(findTestObject(""Attendance/PunchIn""))",,,,2021-01-10 20:37:50,2021-01-10 20:37:51,1.516s,PASSED
+"sendRequestAndVerify(findTestObject(""Attendance/PunchIn""))",,,,2021-01-10 20:37:51,2021-01-10 20:37:52,1.157s,PASSED
+"verifyResponseStatusCode(Response, 202)",,,,2021-01-10 20:37:53,2021-01-10 20:37:53,0.059s,PASSED
+"verifyElementPropertyValue(Response, ""id"", ""null"")",,,,2021-01-10 20:37:53,2021-01-10 20:37:53,0.149s,PASSED
+,,,,,,,
+Test Cases/Attendance/POST_PunchOut,,,,2021-01-10 20:37:53,2021-01-10 20:37:54,1.381s,FAILED
+"Response = sendRequest(findTestObject(""Attendance/PunchOut""))",,,,2021-01-10 20:37:53,2021-01-10 20:37:54,0.387s,PASSED
+"sendRequestAndVerify(findTestObject(""Attendance/PunchOut""))",,,,2021-01-10 20:37:54,2021-01-10 20:37:54,0.539s,PASSED
+"verifyResponseStatusCode(Response, 202)",,,,2021-01-10 20:37:54,2021-01-10 20:37:54,0.022s,FAILED

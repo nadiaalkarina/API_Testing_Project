@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Attendance" time="5.758" tests="2" failures="0" skips="0" errors="0">
+   <testsuite name="Attendance" tests="2" failures="0" errors="0" time="5.758" skips="0" timestamp="2021-01-10 20:45:18" hostname="win10 - DESKTOP-FIL7UJ4" id="Test Suites/Attendance">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\SekolahQA\\ProjectTugas\\SP3\\Reports\\20210110_204506\\Attendance\\20210110_204506"/>
+         <property name="logFiles" value="D:\\SekolahQA\\ProjectTugas\\SP3\\Reports\\20210110_204506\\Attendance\\20210110_204506\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="win10 - DESKTOP-FIL7UJ4"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.2.208"/>
+      </properties>
+      <testcase name="Test Cases/Attendance/POST_PunchIn" time="2.791" classname="Test Cases/Attendance/POST_PunchIn" status="PASSED">
+         <system-out><![CDATA[2021-01-10 20:45:19 - [TEST_CASE][PASSED] - Test Cases/Attendance/POST_PunchIn: Test Cases/Attendance/POST_PunchIn
+
+2021-01-10 20:45:20 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Attendance/PunchIn")): Send request successfully
+
+2021-01-10 20:45:21 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_204506\Attendance\20210110_204506\requests\main\0.har
+
+2021-01-10 20:45:21 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 20:45:21 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Attendance/PunchIn")): Send request and verify the response successfully
+
+2021-01-10 20:45:22 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_204506\Attendance\20210110_204506\requests\main\1.har
+
+2021-01-10 20:45:22 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 20:45:22 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 20:45:22 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 20:45:22 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 20:45:22 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 20:45:22 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 20:45:22 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 20:45:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "success", "Successfully Punched In"): Verify element property value successfully
+
+2021-01-10 20:45:22 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Attendance/POST_PunchOut" time="1.241" classname="Test Cases/Attendance/POST_PunchOut" status="PASSED">
+         <system-out><![CDATA[2021-01-10 20:45:22 - [TEST_CASE][PASSED] - Test Cases/Attendance/POST_PunchOut: Test Cases/Attendance/POST_PunchOut
+
+2021-01-10 20:45:22 - [TEST_STEP][PASSED] - Response = sendRequest(findTestObject("Attendance/PunchOut")): Send request successfully
+
+2021-01-10 20:45:23 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_204506\Attendance\20210110_204506\requests\main\2.har
+
+2021-01-10 20:45:23 - [MESSAGE][PASSED] - Send request successfully
+
+2021-01-10 20:45:23 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Attendance/PunchOut")): Send request and verify the response successfully
+
+2021-01-10 20:45:23 - [MESSAGE][INFO] - HAR: D:\SekolahQA\ProjectTugas\SP3\Reports\20210110_204506\Attendance\20210110_204506\requests\main\3.har
+
+2021-01-10 20:45:23 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2021-01-10 20:45:23 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2021-01-10 20:45:23 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2021-01-10 20:45:23 - [MESSAGE][PASSED] - Verify response successfully
+
+2021-01-10 20:45:23 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2021-01-10 20:45:23 - [TEST_STEP][PASSED] - verifyResponseStatusCode(Response, 200): Verify response status code successfully
+
+2021-01-10 20:45:23 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2021-01-10 20:45:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(Response, "success", "Successfully Punched Out"): Verify element property value successfully
+
+2021-01-10 20:45:23 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-01-10 20:45:18 - [TEST_SUITE][PASSED] - Attendance: Test Cases/Attendance/POST_PunchOut]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

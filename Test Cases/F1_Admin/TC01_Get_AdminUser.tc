@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01_Get_AdminUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d788701-517b-48cf-afb7-d6bc43b91332</testCaseGuid>
+</TestCaseEntity>
