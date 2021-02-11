@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Response = WS.sendRequest(findTestObject('Employee/M03_UPDATE_Employee_Detail'))
+Response = WS.sendRequest(findTestObject('F3_Employee/M03.1_Update_Employee_Detail - Negative'))
 
-WS.sendRequestAndVerify(findTestObject('Employee/M03_UPDATE_Employee_Detail'))
+WS.sendRequestAndVerify(findTestObject('F3_Employee/M03.1_Update_Employee_Detail - Negative'))
 
 WS.verifyResponseStatusCode(Response, 200)
 

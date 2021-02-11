@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Response = WS.sendRequest(findTestObject('Admin/GET_Admin2'))
+Response = WS.sendRequest(findTestObject('F1_Admin/AT02_User_Login'))
 
-WS.sendRequestAndVerify(findTestObject('Admin/GET_Admin2'))
+WS.sendRequestAndVerify(findTestObject('F1_Admin/AT02_User_Login'))
 
 WS.verifyResponseStatusCode(Response, 200)
 

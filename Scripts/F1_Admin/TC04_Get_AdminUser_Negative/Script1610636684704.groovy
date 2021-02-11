@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Response = WS.sendRequest(findTestObject('Admin/GET_Admin - Negative'))
+Response = WS.sendRequest(findTestObject('F1_Admin/AT01.1_GET_Users - Negative'))
 
-WS.sendRequestAndVerify(findTestObject('Admin/GET_Admin - Negative'))
+WS.sendRequestAndVerify(findTestObject('F1_Admin/AT01.1_GET_Users - Negative'))
 
 WS.verifyResponseStatusCode(Response, 200)
 

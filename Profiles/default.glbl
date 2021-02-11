@@ -6,17 +6,17 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://34.123.127.154/symfony/web'</initValue>
+      <initValue>'https://qa.cilsy.id/symfony/web/index.php'</initValue>
       <name>OrangeURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'http://34.123.127.154/symfony/web/index.php/oauth/issueToken'</initValue>
+      <initValue>'https://qa.cilsy.id/symfony/web/index.php/oauth/issueToken'</initValue>
       <name>TokenURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Bearer ff03f0eaac66f7a2362a096808f8594d39b9f625'</initValue>
+      <initValue>'Bearer 8c517ed198812021c4b9f423f3982b57bb5b9cb0'</initValue>
       <name>token</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

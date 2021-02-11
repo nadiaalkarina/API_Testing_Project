@@ -15,9 +15,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Response = WS.sendRequest(findTestObject('Admin/POST_Admin', [('variable') : '', ('variable_0') : '']))
+Response = WS.sendRequest(findTestObject('F1_Admin/AT03_Get_Org_Information', [('variable') : '', ('variable_0') : '']))
 
-WS.sendRequestAndVerify(findTestObject('Admin/POST_Admin', [('variable') : '', ('variable_0') : '']))
+WS.sendRequestAndVerify(findTestObject('F1_Admin/AT03_Get_Org_Information', [('variable') : '', ('variable_0') : '']))
 
 WS.verifyResponseStatusCode(Response, 200)
 
